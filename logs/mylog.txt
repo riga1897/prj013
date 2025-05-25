@@ -1,0 +1,39 @@
+my_function started: 25-May-2025 22:45:23.461306
+my_function ok
+my_function stoped: 25-May-2025 22:45:23.461769
+my_function started: 25-May-2025 22:45:23.472464
+my_function error: TypeError. Inputs: ((5, '7')), {}
+my_function stoped: 25-May-2025 22:45:23.472531
+my_function started: 25-May-2025 22:45:23.479887
+my_function ok
+my_function stoped: 25-May-2025 22:45:23.479918
+my_function started: 25-May-2025 22:45:23.486461
+my_function error: TypeError. Inputs: ((7, '9')), {}
+my_function stoped: 25-May-2025 22:45:23.486487
+my_function started: 25-May-2025 22:45:38.139664
+my_function ok
+my_function stoped: 25-May-2025 22:45:38.140157
+my_function started: 25-May-2025 22:45:38.158759
+my_function error: TypeError. Inputs: ((5, '7')), {}
+my_function stoped: 25-May-2025 22:45:38.158820
+my_function started: 25-May-2025 22:45:38.173055
+my_function ok
+my_function stoped: 25-May-2025 22:45:38.173102
+my_function started: 25-May-2025 22:45:38.180991
+my_function error: TypeError. Inputs: ((7, '9')), {}
+my_function stoped: 25-May-2025 22:45:38.181015
+my_function started: 25-May-2025 23:01:13.693792
+my_function ok
+my_function stoped: 25-May-2025 23:01:13.694279
+my_function started: 25-May-2025 23:01:13.711636
+my_function error: TypeError. Inputs: ((5, '7')), {}
+my_function stoped: 25-May-2025 23:01:13.711700
+my_function started: 25-May-2025 23:01:13.728116
+my_function ok
+my_function stoped: 25-May-2025 23:01:13.728141
+my_function started: 25-May-2025 23:01:13.734045
+my_function error: TypeError. Inputs: ((7, '9')), {}
+my_function stoped: 25-May-2025 23:01:13.734075
+my_function started: 25-May-2025 23:12:55.068081
+my_function ok
+my_function stoped: 25-May-2025 23:12:55.068148
