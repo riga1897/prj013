@@ -116,7 +116,8 @@ get_transactions = get_amount(my_transactions)
 my_count = my_transactions.__len__()
 for _ in my_transactions:
     #result = next(get_transactions)
-    if result:
-        print(result)
+    # if result:
+    #     print(result)
+    print()
 print(75 * "-")
 """ Конец вывода результатов """
