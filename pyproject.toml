@@ -17,7 +17,9 @@ dependencies = [
     "pytz (>=2025.2)",
     "six (>=1.17.0)",
     "tzdata (>=2025.2)",
-    "python-dotenv (>=1.1.0,<2.0.0)"
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "pandas-stubs (>=2.2.3.250527,<3.0.0.0)",
+    "types-requests (>=2.32.0.20250515,<3.0.0.0)"
 ]
 
 

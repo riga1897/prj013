@@ -3,7 +3,7 @@ from functools import wraps
 from typing import Any, Callable
 
 
-def logged(module_name: str ="decorate_logs") -> Callable:
+def logged(module_name: str = "decorate_logs") -> Callable:
     """
     Функция содержит декоратор.
     Принимает в качестве аргумента путь к файлу логирования, который будет использоваться декоратором

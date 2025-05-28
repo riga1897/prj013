@@ -2,6 +2,7 @@ from typing import Iterator
 
 from src.decorators import my_function
 from src.generators import card_number_generator, filter_by_currency, get_amount, transaction_descriptions
+from src.getfile import data_path, read_from_csv, read_from_xlsx
 from src.processing import filter_by_state, sort_by_date
 from src.utils import get_project_root, read_json_list
 from src.widget import get_date, mask_account_card
@@ -114,10 +115,20 @@ my_file = get_project_root() / "data" / "operations.json"
 my_transactions = read_json_list(my_file)
 get_transactions = get_amount(my_transactions)
 my_count = my_transactions.__len__()
-for _ in my_transactions:
-    #result = next(get_transactions)
-    # if result:
-    #     print(result)
-    print()
+# for _ in my_transactions:
+# result = next(get_transactions)
+# if result:
+#     print(result)
+# print()
+print(75 * "-")
+
+my_csv_file = data_path / "transactions.csv"
+my_xlsx_file = data_path / "transactions_excel.xlsx"
+
+print(list(read_from_csv(my_csv_file))[0:3])
+
+print(75 * "-")
+
+print(list(read_from_xlsx(my_xlsx_file))[0:3])
 print(75 * "-")
 """ Конец вывода результатов """

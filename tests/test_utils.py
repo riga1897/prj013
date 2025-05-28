@@ -23,7 +23,7 @@ def test_read_non_list_json_raises_error(test_one_dictionary):
         assert result == "[]"
 
 
-def test_invalid_json_raises_error():
+def test_invalid_json_raises_error() -> None:
     """Тест возвращения пустого списка, если файл содержит неверно сформированные данные"""
     invalid_json = "{not valid json}"
     with patch("builtins.open", mock_open(read_data=invalid_json)):
